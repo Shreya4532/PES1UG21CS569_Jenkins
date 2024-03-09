@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Move to the 'main' directory
                 dir('main') {
-                    sh 'g++ hello.cpp -o hello'
+                    sh 'g+ hello.cpp -o hello'
                 }
             }
         }
